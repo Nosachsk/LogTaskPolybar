@@ -6,7 +6,8 @@ Display tasks created in the daily logseq journal in a polybar module.
 
 On left-click, dmenu shows current tasks marked as 'LATER'. Select a task with dmenu to mark it as 'DONE'.
 
-![2022-07-07-102144_1366x768_scrot](https://user-images.githubusercontent.com/64380798/177727142-48d8b9c8-0b8a-4535-9b2e-36c673fa9a9d.png)
+![2022-07-07-103026_1366x768_scrot](https://user-images.githubusercontent.com/64380798/177728932-39bd2f01-3608-41f8-98d1-393797968a7c.png)
+
 
 Notify-send sends a confirmation notification.
 
@@ -22,8 +23,8 @@ Notify-send sends a confirmation notification.
 ## Setup
 * replace folder location in ``task.sh`` with the location of your Logseq journal pages.
 * the script is written for the default Logseq setting. Edit accordingly if you use:
-- a different date format for the journal files
-- TODO/DONE rather than LATER/DONE
+..* a different date format for the journal files
+..* TODO/DONE rather than LATER/DONE
 * if not using ``dmenu`` or ``notify-send``, remove them from the script. The polybar module will only display the number of tasks.
 
 ### Module
