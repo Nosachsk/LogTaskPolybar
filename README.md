@@ -23,8 +23,8 @@ Notify-send sends a confirmation notification.
 ## Setup
 * replace folder location in ``task.sh`` with the location of your Logseq journal pages.
 * the script is written for the default Logseq setting. Edit accordingly if you use:
-...* a different date format for the journal files
-...* TODO/DONE rather than LATER/DONE
+  * a different date format for the journal files
+  * TODO/DONE rather than LATER/DONE
 * if not using ``dmenu`` or ``notify-send``, remove them from the script. The polybar module will only display the number of tasks.
 
 ### Module
